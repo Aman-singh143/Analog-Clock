@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:ital,wght@1,200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center  ;
+    transition: 0.6s;
+	-webkit-transition: 0.6s;
+}
+.hed{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.btn{
+    
+    border-radius: 17px;
+    height: 42px;
+    width: 117px;
+    margin: 22px;
+    background-color: black;
+    font-size: 20px;
+    color: antiquewhite;
+   
+}
+.container{
+
+    height: 600px;
+    width: 600px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+    
+
+.clock{
+    display: flex;
+    position: relative;
+    align-items: center;    
+    justify-content: center;    
+
+}
+
+
+.clock img{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 0px 0vw 3vw -1vw rgb(0 0 0 / 80%);
+
+
+}
+.dot{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: rgb(253, 3, 53);
+    position: absolute;
+    z-index: 4;
+
+
+}
+.hour{
+    position: absolute;
+    height: 85px;
+    width: 8px;
+    margin: auto;
+    background-color: black;
+    z-index: 1;
+    transform-origin: bottom;
+    top: 115px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    
+}
+.min{
+    position: absolute;
+    height: 119px;
+    width: 6px;
+    background: rgb(95, 84, 84);
+    z-index: 2;
+    transform-origin: bottom;
+    top: 81px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+    
+}
+.sec{
+    position: absolute;
+    height: 151px;
+    width: 4px;
+    background-color: rgb(248, 0, 0);
+    z-index: 3;
+    transform-origin: bottom;
+    top: 49px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+    
+}
+.digital{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif; 
+    font-weight: 800;
+    margin-top: 33px;
+}
+
+.end{
+    
+    justify-content: center;
+    align-items: center;
+
+
+}
+.endlogo{
+    width: 36px;
+    height: 36px;
+    margin: 3px;
+
+}
+
+.dclock{
+    text-align: center;
+    font-size: 30px;
+    position:relative
+   
+    
+}
+.cal{
+    font-size: 40px;
+    position: relative;
+    
+    
+}
